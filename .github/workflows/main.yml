@@ -37,4 +37,4 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build Red-Queen_Race-By-AI.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build Red-Queen-Race-By-AI.surge.sh --token ${{ secrets.SURGE_TOKEN }}
